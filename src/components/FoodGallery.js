@@ -4,7 +4,7 @@ import h3 from './3.jpeg';
 import h4 from './4.jpeg';
 import h5 from './5.jpeg';
 import h6 from './6.jpeg';
-import h7 from './7.jpeg';
+import h7 from './7.png';
 
 const FoodGallery = () => {
   const foodImages = [h1, h2, h3, h4, h5, h6, h7];

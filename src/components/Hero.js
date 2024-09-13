@@ -1,9 +1,13 @@
 import React from 'react';
+import checkkk from './7.jpeg'; // Importing the image
 
 const Hero = () => {
     return (
-      <section id="home" className="h-screen flex items-center justify-center bg-hero-pattern bg-cover bg-center relative">
-        <div className="absolute inset-0 bg-black opacity-60"></div>
+      <section 
+        id="home" 
+        className="h-screen flex items-center justify-center bg-cover bg-center relative"
+        style={{ backgroundImage: `url(${checkkk})` }} // Using the image as background
+      >
         <div className="relative text-white text-center p-8">
           <h1 className="text-6xl font-bold tracking-wide leading-tight">Welcome to Cafe Varaharoopam</h1>
           <p className="mt-4 text-2xl font-light">Delicious South Indian Cuisine with a Modern Twist</p>
@@ -11,6 +15,6 @@ const Hero = () => {
         </div>
       </section>
     );
-  };
-  
+};
+
 export default Hero;
