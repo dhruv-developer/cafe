@@ -6,7 +6,7 @@ const Overview = () => {
     <section id="overview" className="py-16 bg-custom-back">
       <div className="max-w-4xl mx-auto text-center">
         <div className="marquee-container">
-          <h2 className="text-4xl font-bold mb-6 text-gray-800 marquee-text">
+          <h2 className="text-4xl font-bold mb-6 text-gray-800 ">
             About Us
           </h2>
         </div>

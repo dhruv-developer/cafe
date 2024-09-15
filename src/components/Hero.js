@@ -25,7 +25,7 @@ const Hero = () => {
 
                 <a
                     href="#menu"
-                    className="mt-8 inline-block bg-custom-menu text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-yellow-400 transition duration-300"
+                    className="mt-8 inline-block bg-yellow-500 text-white py-3 px-6 rounded-full text-lg font-semibold hover:bg-yellow-400 transition duration-300"
                 >
                     Explore Menu
                 </a>

@@ -8,7 +8,7 @@ const WhatWeDeliver = () => {
       <div className="marquee-container">
         <div className='marquee-container'>
 
-        <h2 className="text-4xl font-bold mb-6 text-gray-800 marquee-text">What We Deliver</h2>
+        <h2 className="text-4xl font-bold mb-6 text-gray-800">What We Deliver</h2>
         </div>
         </div>
         <ul className="text-lg text-gray-700 leading-relaxed space-y-4">
