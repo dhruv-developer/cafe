@@ -1,5 +1,6 @@
 import React from 'react';
-import checkkk from './backLogo.jpeg'; // Importing the image
+// import checkkk from './backLogo.jpeg'; // Importing the image
+import checkkk from './hehe.jpg'; // Importing the image
 
 const Hero = () => {
     return (
@@ -14,7 +15,7 @@ const Hero = () => {
             ></div>
 
             {/* Content */}
-            <div className="relative text-custom-text text-center p-8 z-10" style={{ left: '-50px' }} >
+            <div className="relative text-custom-text text-center p-8 z-10" >
                 <h1
                     className="text-6xl font-bold tracking-wide leading-tight relative"
 
