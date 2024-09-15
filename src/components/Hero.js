@@ -1,6 +1,6 @@
 import React from 'react';
 // import checkkk from './backLogo.jpeg'; // Importing the image
-import checkkk from './hehe.jpg'; // Importing the image
+import checkkk from './hehe.jpeg'; // Importing the image
 
 const Hero = () => {
     return (
