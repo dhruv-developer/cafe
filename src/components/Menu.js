@@ -113,9 +113,7 @@ const Menu = () => {
 
   return (
     <section id="menu" className="py-16 bg-custom-back">
-      <div className="marquee-container">
-        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 marquee-text">Our Menu</h2>
-      </div>
+        <h2 className="text-4xl font-bold text-center mb-12 text-gray-800 ">Our Menu</h2>
       <div className="max-w-4xl mx-auto">
         {categories.map((category, idx) => (
           <div key={idx} className="mb-8">

@@ -14,8 +14,11 @@ const Hero = () => {
             ></div>
 
             {/* Content */}
-            <div className="relative text-custom-text text-center p-8 z-10">
-                <h1 className="text-6xl font-bold tracking-wide leading-tight">
+            <div className="relative text-custom-text text-center p-8 z-10" style={{ left: '-50px' }} >
+                <h1
+                    className="text-6xl font-bold tracking-wide leading-tight relative"
+
+                >
                     Welcome to Cafe Varaharoopam
                 </h1>
 
