@@ -1,10 +1,15 @@
 import React from 'react';
+import './mar.css'; // Import the CSS with the marquee animation
 
 const Overview = () => {
   return (
-    <section id="overview" className="py-16 bg-gray-100">
+    <section id="overview" className="py-16 bg-custom-back">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-4xl font-bold mb-6 text-gray-800">Welcome to Cafe Varaharoopam</h2>
+        <div className="marquee-container">
+          <h2 className="text-4xl font-bold mb-6 text-gray-800 marquee-text">
+            About Us
+          </h2>
+        </div>
         <p className="text-lg text-gray-700 leading-relaxed">
           Varaharoopam is an exciting new addition to the culinary scene, offering a unique fusion of traditional South Indian flavors with a modern twist.
           We blend age-old recipes with contemporary tastes, delivering comfort food that brings people together. Our dishes are made from fresh, local ingredients 

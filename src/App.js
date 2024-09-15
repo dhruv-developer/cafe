@@ -21,7 +21,6 @@ function App() {
       <WhatWeDeliver /> {/* What We Deliver Section */}
       <Menu />
       <FoodGallery />
-      <AboutUs />
       <Footer />
     </div>
   );
